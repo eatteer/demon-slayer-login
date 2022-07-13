@@ -1,5 +1,5 @@
 # Demon Slayer Login Page
-## Screenshot
+## Screenshots
 ### Mobile
 ![alt mobile](https://user-images.githubusercontent.com/55556476/178786572-0068324a-56f9-4d67-9496-8fcae5e4546c.png)
 ### Desktop
