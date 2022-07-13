@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+    <script
+      src="https://kit.fontawesome.com/07b8df4631.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <img
+          class="form__logo"
+          src="http://assets.stickpng.com/images/5ede4a3fb760540004f2c5e9.png"
+          alt="Demon Slayer Logo"
+        />
+        <h1 class="form__title">Welcome back</h1>
+        <h2 class="form__subtitle">Welcome back! please enter your details</h2>
+        <div class="textfield">
+          <label class="label" for="email">Email</label>
+          <input
+            class="input"
+            id="email"
+            type="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <div class="textfield">
+          <label class="label" for="password">Password</label>
+          <input
+            class="input"
+            id="password"
+            type="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="pass-actions">
+          <div class="remember-pass">
+            <input id="remember-pass" type="checkbox" />
+            <label for="remember-pass">Remember for 30 days</label>
+          </div>
+          <a class="pass-actions__forgot-password">Forgot password?</a>
+        </div>
+        <div class="buttons">
+          <button class="button primary">Sign in</button>
+          <button class="button light">
+            <i class="fa-brands fa-google"></i>
+            Sign in with Google
+          </button>
+        </div>
+        <p class="account-existence">
+          Don't have an account?
+          <span class="account-existence__sign-up">Sign up for free</span>
+        </p>
+      </form>
+      <div class="img-container">
+        <img
+          class="img-container__image"
+          src="https://somoskudasai.com/wp-content/uploads/2022/02/BD-MUGEN-1-scaled.jpg"
+          alt="Rengoku"
+        />
+        <div class="card">
+          <p class="card__blockquote">
+            "No importa cuán débil o indigno te sientas, mantén el corazón
+            ardiendo, aprieta los dientes y avanza. Si te acurrucas en una bola
+            y te escondes, el tiempo pasará. No se detendrá por ti mientras te
+            revuelves en tu dolor"
+          </p>
+          <p class="card__author">Rengoku Kyōjurō</p>
+          <p class="card__occupation">Cazador de Demonios</p>
+          <p class="card__pilar">Pilar de Fuego</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
